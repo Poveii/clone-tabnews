@@ -22,7 +22,7 @@ function Home() {
         textAlign: "center",
       }}
     >
-      <div>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
         <h1>BibleTab</h1>
         <p
           style={{
@@ -32,6 +32,10 @@ function Home() {
           Um lugar massa para poder compartilhar experiências com a Palavra de
           Deus!
         </p>
+
+        <p style={{ width: "50%", fontSize: "0.875rem", marginTop: "0.25rem" }}><span style={{ position: "relative", top: "-0.25rem", marginRight: "0.25rem" }}>19</span>Animem uns aos outros com salmos, hinos e canções espirituais. Cantem, de todo o coração, hinos e salmos ao Senhor. <span style={{ position: "relative", top: "-0.25rem", marginRight: "0.25rem" }}>20</span>Em nome do nosso Senhor Jesus Cristo, agradeçam sempre todas as coisas a Deus, o Pai.</p>
+
+        <span style={{ fontSize: "0.875rem" }}>Efésios 5:19-20 NTLH</span>
       </div>
 
       <a
